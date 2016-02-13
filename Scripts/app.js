@@ -51,9 +51,54 @@
 
 
     };
+    
+    
+    var replaceOne = function () {
+
+        console.log("inside replaceOne anonymous Function");
+
+        var headOne;
+
+        headOne = document.getElementById("headOne");
+
+        headOne.innerHTML = "Hamid Law Office";
+
+
+    };
+    
+    
+    var replaceTwo = function () {
+
+        console.log("inside replaceTwo anonymous Function");
+
+        var headTwo;
+
+        headTwo = document.getElementById("headTwo");
+
+        headTwo.innerHTML = "Assignment1";
+
+
+    };
+    
+    
+    var replaceThree = function () {
+
+        console.log("inside replaceHead anonymous Function");
+
+        var headThree;
+
+        headThree = document.getElementById("headThree");
+
+        headThree.innerHTML = "Assignment2";
+
+
+    };
 
     // call replaceFirstParagraph
     replaceFirstParagraph();
     // call replaceHead
     replaceHead();
+   replaceOne();
+   replaceTwo(); 
+   replaceThree();  
 })();
