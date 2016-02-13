@@ -1,3 +1,10 @@
+
+
+/*Author: Antanik Mitra
+  File: app.js
+  Website: http://comp1073-assign1.azurewebsites.net/
+*/
+
 "use strict";
 // setup your IIFE(Immediately Invoked Function Expression)
 (function () {

@@ -1,4 +1,10 @@
 /* custom syle sheet */
+
+/*Author: Antanik Mitra
+  File: app.css
+  Website: http://comp1073-assign1.azurewebsites.net/
+*/
+
 html,
 body {
   height: 100%;
@@ -58,6 +64,8 @@ aside {
 .no-padding {
   padding: 0;
 }
+/* Nav bar section*/
+
 .navbar-default {
   background-color: rgba(0, 0, 0, 0.9);
   border-color: rgba(34, 34, 34, 0.05);
@@ -148,7 +156,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('images/fir.jpg');
+  background-image: url('images/Bag.jpg');
   text-align: center;
   color: white;
 }
@@ -438,7 +446,7 @@ body {
         color: #f05f40;
 }
 
-#what{
+#description{
     
     color: black;
     
