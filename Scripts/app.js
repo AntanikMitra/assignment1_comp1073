@@ -38,8 +38,8 @@
 
 
     };
-    
-     var replaceHead = function () {
+
+    var replaceHead = function () {
 
         console.log("inside replaceHead anonymous Function");
 
@@ -55,5 +55,5 @@
     // call replaceFirstParagraph
     replaceFirstParagraph();
     // call replaceHead
-    replaceHead();     
+    replaceHead();
 })();
