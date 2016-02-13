@@ -31,8 +31,22 @@
 
 
     };
+    
+     var replaceHead = function () {
+
+        console.log("inside replaceHead anonymous Function");
+
+        var secondHead;
+
+        secondHead = document.getElementById("secondHead");
+
+        secondHead.innerHTML = "Who am I?";
+
+
+    };
 
     // call replaceFirstParagraph
     replaceFirstParagraph();
-
+    // call replaceHead
+    replaceHead();     
 })();
