@@ -1,63 +1,38 @@
 "use strict";
-
-// setup your IIFE (Immediately Invoked Function Expression)
+// setup your IIFE(Immediately Invoked Function Expression)
 (function () {
 
-    var paragraphData = ["First Paragraph", "Second Paragraph", "Third Paragraph", "Forth Paragraph"];
+    console.log("App starting");
     
-    paragraphData[4] = "Fifth Paragraph";
-    paragraphData[5] = "Sixth Paragraph";
-    paragraphData.push("Seventh paragraph");
-   /*
-    // ugly way
-    
-    console.log("App Started..."); 
-    console.log(paragraphData[0]); 
-    console.log(paragraphData[5]); 
-  */
-  
-  // a nicer version
- /* 
-  var paragraphDataLength = paragraphData.length;
-  for (var index = 0; index < paragraphDataLength; index++) {
-      
-       console.log(paragraphData[index]); 
-      
-  }
-  */
-  
-   function showParagraph(paragraph) {
-      
-      console.log(paragraph);
-  };
-  
-  paragraphData.forEach(showParagraph);
-  
-    //declared a named function way
-        function replaceFirstParagraph() {
-        console.log("inside replaceFirstParagraph function");
-        var firstParagraph;
-
-        firstParagraph = document.getElementById("firstParagraph");
-
-        firstParagraph.innerHTML = "My New Paragraph Data";
-    }
-    
-    
+    //decleared a named function way
     /*
-    // declare an anonymous function with named alias
-    var replaceFirstParagraph = function() {
-        console.log("inside replaceFirstParagraph anonymous function");
+     function replaceFirstParagraph() {
+ 
+         console.log("inside replaceFirstParagraph Function");
+ 
+         var firstParagraph;
+ 
+         firstParagraph = document.getElementById("firstParagraph");
+ 
+         firstParagraph.innerHTML = "This is a paragraph";
+ 
+     }*/
+    
+    // declear an anonymous function with named alias
+    var replaceFirstParagraph = function () {
+
+        console.log("inside replaceFirstParagraph anonymous Function");
+
         var firstParagraph;
 
         firstParagraph = document.getElementById("firstParagraph");
 
-        firstParagraph.innerHTML = "My New Paragraph Data";
-    };
- */   
-   
-    // call the replaceFirstParagraph function
-    replaceFirstParagraph();
+        firstParagraph.innerHTML = "A passionate and hardworking person new to this field.Having some experience as IT tech help and in front-end designing.Did some freelancing work for non charitable organizations and firms.Antanik is capable of great creativity, functionality and productivity to this field.";
 
+
+    };
+
+    // call replaceFirstParagraph
+    replaceFirstParagraph();
 
 })();
